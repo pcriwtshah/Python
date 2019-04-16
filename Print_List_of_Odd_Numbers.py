@@ -4,5 +4,7 @@ n=int(input('Amount: '))
 start=1
 
 for i in range(n):
-  print(start)
   start+=2
+  if start > n:
+      break
+  print(start)
